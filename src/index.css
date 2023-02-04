@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../src//assest/font//IRANYekanMedium.ttf");
+
+}
+
+@font-face {
+  font-family: "yekan2";
+  src: url("../src//assest/font/IRANYekanLight.ttf");
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "yekan";
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1131px) {
+  body {
+    overflow-x: auto;
+  }
+}
+
+small {
+  font-family: "yekan2";
+}
+
+.MuiFormLabel-root {
+  font-family: "yekan2" !important;
+  background-color: transparent !important;
+  font-size: 18px !important;
+}
+
+.ant-menu .ant-menu-submenu-arrow{
+  transform: rotate(180deg) !important;
+}
+.ant-menu-submenu-title{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px 0 !important;
+}
+.ant-menu-vertical .ant-menu-submenu{
+  padding-bottom: 26px !important;
+}
