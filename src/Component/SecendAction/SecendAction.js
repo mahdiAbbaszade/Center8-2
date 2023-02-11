@@ -76,13 +76,13 @@ const SecendAction = () => {
     return (
         <>
             <div className="d-flex justify-content-center py-0 py-md-5 my-5 mx-2">
-                <div className="dastrasy col-3 col-md-3  col-lg-3 p-1 m-0 text-center d-none d-md-block">
+                <div className="dastrasy col-3 col-md-3 col-lg-3 p-1 m-0 text-center d-none d-md-block">
                     <div className="py-0 py-md-1 py-lg-0">
-                        <ul className="d-flex flex-column justify-content-end  text-end p-0 ">
+                        <ul className="d-flex flex-column justify-content-end text-end p-0 ">
                             <p className="fw-bolder text-center p-0 my-4">دسترسی های سریع</p>
                             <Menu
-                                className={'center8-menu-icon-rotate'}
-                                style={{ maxHeight: '100%', overflowY: 'auto', backgroundColor: "#eaeaea" }}
+                                className={'center8-menu-icon-rotate dastrasy1'}
+                                style={{ maxHeight: '100%', overflowY: 'auto', backgroundColor: "" }}
                                 onClick={onClick}
                                 mode="vertical"
                                 items={items}
@@ -90,13 +90,12 @@ const SecendAction = () => {
                         </ul>
                     </div>
                 </div>
-                <div
-                    className="col-11 col-md-9 col-lg-8 d-flex flex-column flex-md-column justify-content-between py-0 px-1 mt-0">
+                <div className=" col-11 col-md-9 col-lg-8 d-flex flex-column flex-md-column justify-content-between py-0 px-1 mt-0">
                     <div
                         className="col-12 col-md-12 d-flex flex-row justify-content-around pb-1 pb-lg-2 mb-md-1 ms-0 p-0">
                         <Link
                             className="shadow shadow-lg col col-md-4 shadow col-lg-3 text-decoration-none link1 rounded text-center bgprimary my-0 mx-1 mx-md-0 part1"
-                            to="/center8/Established">
+                            to="/tehranm8tvto/Established">
                             <div className="">
                                 <img className="mb-0 mb-md-1 mb-lg-2 slideimg" src={Ic1} alt="" />
                                 <p className="small2 fw-bold text-white fs-5 d-none d-md-block m-0 pb-1">تاسیس</p>
@@ -124,7 +123,7 @@ const SecendAction = () => {
                         className="col-12 col-md-12 d-flex flex-row justify-content-around pb-1 pb-lg-2 mb-md-1 ms-0 p-0">
                         <Link
                             className="shadow shadow-lg col col-md-4 col-lg-3 text-decoration-none link1 rounded text-center bgprimary my-0 mx-1 mx-md-0 part1"
-                            to="/center8/Established">
+                            to="/tehranm8tvto/Established">
                             <div className="">
                                 <img className="mb-0 mb-md-1 mb-lg-2 slideimg" src={Ic1} alt="" />
                                 <p className="small2 fw-bold text-white fs-5 d-none d-md-block m-0 pb-1">آموزش</p>
@@ -180,7 +179,7 @@ const SecendAction = () => {
                 </div>
             </div>
             <div
-                className="py-5 d-flex flex-column flex-md-row justify-content-center px-1 px-lg-5  border-bottom my-4">
+                className="py-5 d-flex flex-column flex-md-row justify-content-center px-1 px-lg-5 border-bottom my-4">
                 <p className="d-flex align-items-center justify-content-between bgprimary border-2 text-white col-16 col-md-5 col-lg-5 rounded px-1 py-4 m-0 ms-0 mt-1">
                     <span className="p-2 px-2 fw-bold fs-4 border-3 border-start text-center">میز خدمت</span>
                     <span

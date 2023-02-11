@@ -1,6 +1,6 @@
 {
-  "name": "test",
-  "homepage": "https://tezal.ir/center8",
+  "name": "tehranm8tvto",
+  "homepage": "https://tehranm8tvto.ir",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,6 +27,7 @@
     "moment": "^2.29.4",
     "moment-jalaali": "^0.9.6",
     "react": "^18.2.0",
+    "react-auth-code-input": "^3.2.1",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
@@ -39,6 +40,8 @@
     "react-scroll-to-top": "^3.0.0",
     "react-scrollspy": "^3.4.3",
     "react-slick": "^0.29.0",
+    "react-verification-code-input": "^1.2.9",
+    "react-verification-code-input-2": "^1.2.11",
     "slick-carousel": "^1.8.1",
     "stylis": "^4.1.2",
     "stylis-plugin-rtl": "^2.1.1",

@@ -81,7 +81,7 @@ const Established = ( observer( () => {
                             <div
                                 className="d-flex justify-content-between align-items-center px-5 mx-5 mt-4 bg-info bg-opacity-50 py-5 Es">
                                 <span className="me-5 fw-bold Esspan1">اینجانب در سامانه مجوزها ثبت نام کردم</span>
-                                <Link to={'/center8/Established/1'}>
+                                <Link to={'/tehranm8tvto/Established/1'}>
                                     <button className="btn btn-success p-2 my-auto ms-5 rounded"> تایید و ادامه</button>
                                 </Link>
                             </div>

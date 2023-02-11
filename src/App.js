@@ -97,6 +97,9 @@ import AdminCancel2 from './Component/Admin/AdminFolderOld/AdminCancel2';
 import AdminAcceptTable from './Component/Admin/AdminFolder/AdminAcceptTable';
 import AdminAcceptTable2 from './Component/Admin/AdminFolderOld/AdminAcceptTable2';
 import KHabarManage from './Component/manage/KHabarManage';
+import BoxCode from './Component/Box/BoxCode';
+import BoxPass from './Component/Box/BoxPass';
+import Search from './Component/Search/Search';
 
 
 const queryClient = new QueryClient()
@@ -110,13 +113,13 @@ const App = () => {
             <SignUpModal />
             <LoginModal />
             <Routes>
-              <Route exact path='/center8' element={<Home />} />
+              <Route exact path='/tehranm8tvto' element={<Home />} />
               <Route exact path='/KHabar' element={<KHabar />} />
               <Route exact path='/KHabar1' element={<KHabar1 />} />
               <Route exact path='/KHabar2' element={<KHabar2 />} />
               <Route exact path='/KHabar3' element={<KHabar3 />} />
-              <Route path='/center8/Established' element={<LayoutUser><Established /></LayoutUser>} />
-              <Route path='/center8/Established/:code' element={<LayoutUser><Established /></LayoutUser>} />
+              <Route path='/tehranm8tvto/Established' element={<LayoutUser><Established /></LayoutUser>} />
+              <Route path='/tehranm8tvto/Established/:code' element={<LayoutUser><Established /></LayoutUser>} />
               <Route path='/Established-1' element={<LayoutUser><Established1 /></LayoutUser>} />
               <Route path='/Established2' element={<LayoutUser><Established2 /></LayoutUser>} />
               <Route path='/Established3' element={<LayoutUser><Established3 /></LayoutUser>} />
@@ -196,11 +199,14 @@ const App = () => {
               <Route path='/EzafeOkey' element={<EzafeOkey />} />
               <Route path='/DetailedNews/:id' element={<DetailedNews />} />
 
-
-
-              <Route path="*" element={<Navigate replace to="/center8" />} />
-              <Route path="/" element={<Navigate replace to="/center8" />} />
-              <Route path="" element={<Navigate replace to="/center8" />} />
+              {/*  */}
+              <Route path='/BoxCode' element={<BoxCode />} />
+              <Route path='/BoxPass' element={<BoxPass />} />
+              <Route path='/Search' element={<Search />} />
+              {/*  */}
+              <Route path="*" element={<Navigate replace to="/tehranm8tvto" />} />
+              <Route path="/" element={<Navigate replace to="/tehranm8tvto" />} />
+              <Route path="" element={<Navigate replace to="/tehranm8tvto" />} />
             </Routes>
           </Router>
         </ModalStateContext>
